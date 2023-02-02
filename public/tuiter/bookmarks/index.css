@@ -4,6 +4,12 @@ body{
   color: white;
 }
 
+.wd-back{
+  color: rgb(29,161,242);
+  margin-left: 16px;
+  margin-top: 15px;
+}
+
 .wd-grid-row {
   clear: both;
 }
