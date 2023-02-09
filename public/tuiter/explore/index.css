@@ -1,126 +1,36 @@
-body{
-  background-color: black;
-  border: 1px solid rgb(47, 51, 54);
-  padding-left: 16px;
-  color: white;
-}
-
-.wd-back{
-  color: rgb(29,161,242);
-  padding-top: 15px;
-}
-
-.wd-grid-row {
-  clear: both;
-}
-
-.wd-nav {
-  margin-top: 15px;
-}
-.wd-search-bar {
-  padding-left: 50px;
-  height: 35px;
-  width: 90%;
-  float: left;
-  color: white;
-  font-family:FontAwesome;
-}
-.wd-settings {
-  float: right;
-  margin-right: 12px;
-  margin-top: 10px;
-}
-
-.wd-rounded-corners-all-around {
-  border-radius: 50px;
-}
-
-.wd-bg-color-dark-grey {
-  background-color: darkgray;
-}
-
-.wd-grid-col-one-sixth {
-  width: 16.6%;
-  float: left;
-  height: 20px;
-  margin-top: 20px;
-  size: 15px;
-}
-
-.one{
-  padding: 16px;
-  color : rgb(29,161,242);
-  display: inline-block;
-}
-
-.one::after{
-  content: '';
-  margin-top: 10px;
-  height: 4px;
-  background: rgb(29,161,242);
-  border-radius: 3px;
-  display: block
-}
-
-.two{
-  padding: 16px;
-  color : rgb(110, 118, 125);
-}
-
-
-.wd-hr{
-  margin-left: -16px;
-  margin-top: 68px;
-  border-style: solid;
-  border-color:  rgb(47,51,54);
-  border-width: 3px 1px 1px 1px;
-  height: 10px;
-  background-color: rgb(22,24,29);
-}
-
-.wd-news-section{
-  margin-left: -16px;
-  padding: 16px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
-  border-bottom-color: rgb(47, 51, 54);
-}
-
-.wd-section-size13{
-  size: 13px;
-}
-
-.wd-float-left{
-  float: left;
-  width: 70%;
-
-}
-
-.wd-float-right{
-  float: right;
-}
-
-.wd-news-data{
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-size: large;
-}
-
-
-.wd-section-grey{
-  color: rgb(110, 118, 125);
-}
-
-.wd-section-size14{
-  font-size: 14px;
-}
-
-
-
-
-.wd-float-right img{
+.override-bs{
   border-radius: 20px;
+  width:100%;
+  margin-top: 5px;
+}
+
+.img-icon{
+  border-radius: 10px;
+  height: 48px;
+  width: 48px;
+}
+
+.btn-follow{
+  border-radius: 20px;
+}
+
+.grey{
+  color: grey;
+}
+
+.input-search{
+  background-color: white;
+}
+
+.border-round{
+  border-radius: 30px;
+}
+
+
+.img-icon-2{
+  border-radius: 10px;
+  height: 80%;
+  width: 80%;
 }
 
 
