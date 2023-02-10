@@ -2,12 +2,15 @@
   border-radius: 20px;
   width:100%;
   margin-top: 5px;
+  text-align: center;
 }
 
 .img-icon{
   border-radius: 10px;
-  height: 48px;
-  width: 48px;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  /*margin: 0px -6px 0px -6px;*/
 }
 
 .btn-follow{
@@ -26,11 +29,19 @@
   border-radius: 30px;
 }
 
+.left-border-remove{
+  border-left: white;
+}
+
 
 .img-icon-2{
   border-radius: 10px;
   height: 80%;
   width: 80%;
+}
+
+.size-small{
+  font-size: 10px;
 }
 
 
