@@ -1,0 +1,80 @@
+.override-bs{
+  border-radius: 20px;
+  width:100%;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.img-icon{
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  /*margin: 0px -6px 0px -6px;*/
+}
+
+.btn-follow{
+  border-radius: 20px;
+}
+
+.grey{
+  color: grey;
+}
+
+.input-search{
+  background-color: white;
+}
+
+.border-round{
+  border-radius: 30px;
+}
+
+.left-border-remove{
+  border-left: white;
+}
+
+
+.img-icon-2{
+  border-radius: 10px;
+  height: 80%;
+  width: 80%;
+}
+
+.size-small{
+  font-size: 10px;
+}
+
+.override-remove-border{
+  border : none;
+}
+
+.override-active{
+  font-weight: bold;
+}
+
+.text-blue{
+  color : rgb(53,155,240);
+}
+
+.bg-blue{
+  background-color: rgb(53,155,240);
+}
+
+.bg-lightgrey{
+  background-color: rgb(247,249,249);
+}
+
+.override-nav-tabs{
+  border: none;
+  margin-bottom: -6px;
+  justify-content: space-between;
+}
+
+.override-active-tab{
+  border-bottom: 5px solid rgb(53,155,240);
+  border-radius: 5px;
+}
+
+.square-boundary{
+  border-radius: 0px;
+}
