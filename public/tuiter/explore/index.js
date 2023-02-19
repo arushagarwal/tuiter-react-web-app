@@ -5,7 +5,7 @@ import PostSummaryList from "../PostSummaryList/PostSummaryList.js";
 function exploreComponent() {
   $('#wd-explore').append(`
     <div class="row">
-      ${NavigationSidebar()}
+      ${NavigationSidebar('explore')}
       ${PostSummaryList()}
       ${WhoToFollowList()}
     </div>
