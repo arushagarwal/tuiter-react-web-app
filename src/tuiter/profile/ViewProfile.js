@@ -7,7 +7,7 @@ const ViewProfileComponent = () => {
     const profileData = useSelector(state => state.profile);
     console.log(profileData);
     return(
-        <div className="mt-2">
+        <div className="mt-2 ">
             <div className="d-flex justify-content-start">
                 <div><i className="bi bi-arrow-left h4"></i></div>
                 <div>
@@ -15,8 +15,8 @@ const ViewProfileComponent = () => {
                     <small className="text-secondary p-0 ms-4 lh-1 mt-0">6,114 Tweets</small>
                 </div>
             </div>
-            <div className="position-relative mb-5">
-                <img className=" img-fluid mt-3 rounded mh-75" src={profileData.bannerPicture} alt=""/>
+            <div className="position-relative mb-5 ">
+                <img className=" img-fluid mt-3 rounded " src={profileData.bannerPicture} alt=""/>
                 <img className="position-absolute img-overlay" src={profileData.profilePicture} alt=""/>
                 <Link to="/tuiter/edit-profile" className="btn btn-outline-secondary text-dark float-end mt-2 me-3 rounded-pill"> Edit Profile</Link>
             </div>
