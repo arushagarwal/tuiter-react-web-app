@@ -42,7 +42,7 @@ const TuitItem = (
                     {item.tuit}
                 </div>
 
-                <TuitStats/>
+                <TuitStats post={item}/>
             </div>
         </div>
     );
