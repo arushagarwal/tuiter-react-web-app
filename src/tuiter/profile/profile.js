@@ -1,6 +1,7 @@
 import {createSlice} from "@reduxjs/toolkit";
 
-const profileData = {
+let profiles = [{
+    _id: "12345",
     firstName: 'Jose',
     lastName: 'Annunziato',
     handle: '@jannunzi',
@@ -13,11 +14,25 @@ const profileData = {
     dateJoined: '4/2009',
     followingCount: 340,
     followersCount: 223
-}
+}];
 
 const profileSlice = createSlice({
-    name:"profile",
-    initialState:profileData
+    name:'profile',
+    initialState:profiles,
+    reducers:{
+        updateProfile(state, action){
+            const profile = state.find((profile) => profile._id === action.payload._id);
+            profile.firstName = action.payload.firstName;
+            profile.lastName = action.payload.lastName;
+            profile.bio = action.payload.bio;
+            profile.location = action.payload.location;
+            profile.website = action.payload.website;
+            profile.dateOfBirth = action.payload.dateOfBirth;
+
+        }
+    }
 });
 
+
+export const {updateProfile} = profileSlice.actions;
 export default profileSlice.reducer;

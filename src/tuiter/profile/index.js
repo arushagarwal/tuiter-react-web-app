@@ -1,16 +1,12 @@
 import React from "react";
 import ViewProfileComponent from "./ViewProfile";
-import profileReducer from "./profile";
-import {configureStore} from "@reduxjs/toolkit";
-import {Provider} from "react-redux";
-const store = configureStore({reducer: {profile: profileReducer}});
+import {useSelector} from "react-redux";
 
 
 const ProfileComponent = () => {
+    const profileData = useSelector(state => state.profile);
     return(
-        <Provider store={store}>
-            <ViewProfileComponent/>
-        </Provider>
+        <ViewProfileComponent key={profileData._id} profileData={profileData[0]}/>
     );
 }
 

@@ -1,11 +1,25 @@
 import React from "react";
 import "./index.css";
-import {useSelector} from "react-redux";
 import {Link} from "react-router-dom";
 
-const ViewProfileComponent = () => {
-    const profileData = useSelector(state => state.profile);
-    console.log(profileData);
+const ViewProfileComponent = ({
+          profileData={
+              _id:'12345',
+              firstName: 'Dhruv',
+              lastName: 'Annunziato',
+              handle: '@jannunzi',
+              profilePicture: 'https://upstatement.com/wp-content/themes/upstatement/content/img/portfolio/nu-brand/athletics-logo-circle-n-split.svg',
+              bannerPicture: 'https://kubrick.htvapps.com/vidthumb/images/northeastern-university-1599864129.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*',
+              bio: 'Faculty, Software Engineer, AI, Space, and renewable enthusiast.Retuits and likes are not endorsements.',
+              website: 'youtube.com/webdevtv',
+              location: 'Boston, MA',
+              dateOfBirth: '1968-07-07',
+              dateJoined: '4/2009',
+              followingCount: 340,
+              followersCount: 223
+          }
+
+        }) => {
     return(
         <div className="mt-2 ">
             <div className="d-flex justify-content-start">

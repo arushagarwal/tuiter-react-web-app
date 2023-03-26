@@ -1,18 +1,13 @@
 import React from "react";
 import EditProfile from "./EditProfile";
-import profileReducer from "../profile/profile"
-import {configureStore} from "@reduxjs/toolkit";
-import {Provider} from "react-redux";
 import "../explore/index.css";
-
-const store = configureStore({reducer: {profile: profileReducer}});
+import {useSelector} from "react-redux";
 
 
 const EditProfileComponent = () => {
+    const profileData = useSelector(state => state.profile);
     return(
-        <Provider store={store}>
-            <EditProfile/>
-        </Provider>
+            <EditProfile key={profileData._id} profile={profileData[0]}/>
     );
 }
 
