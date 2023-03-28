@@ -19,7 +19,6 @@ const TuitItem = (
             "card_image" : "inspiration4x.png",
             "card_title" : "Countdown: Inspiration4 mission to scope | Netflix Official Site ",
             "tuit" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Atque dolores iure, officia pariatur qui quia temporibus veniam voluptas! Adipisci assumenda corporis dicta dolore dolorum hic ipsa placeat rerum! Amet, necessitatibus.",
-
         }
     }) => {
     const dispatch = useDispatch();
