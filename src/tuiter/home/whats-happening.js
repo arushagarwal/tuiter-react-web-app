@@ -8,6 +8,16 @@ const WhatsHappening = () => {
     const dispatch = useDispatch();
     const tuitClickHandler = () => {
         const newTuit = {
+            icon:"reactjs.png",
+            topic: "Custom",
+            userName:"arushAgarwal",
+            handle: "@agarwalA",
+            time: "00h",
+            title:"this is the custom tweet created by the user",
+            liked: true,
+            replies: 111,
+            retuits:222,
+            likes:333,
             tuit: whatsHappening
         }
         // dispatch(createTuit(newTuit));
